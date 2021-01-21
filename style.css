@@ -13,7 +13,7 @@
 }
 #container {
     width: 60%;
-    height: 100rem;
+    height: 60rem;
     margin-left: 20%;
     margin-top: 3rem;
     display: flex;
@@ -25,8 +25,8 @@
 }
 
 img {
-    width: 23%;
-    height: 25rem;
+    width: 22%;
+    height: 15rem;
     padding: 2rem;
     border-radius: 40px;
 }
@@ -50,11 +50,11 @@ button {
 
 @media screen and (max-width: 1200px) {
     #container {
-        height: 60rem;
+        height: 53rem;
     }
     img {
-        width: 21%;
-        height: 15rem;
+        width: 20.1%;
+        height: 13rem;
     }
 }
 
