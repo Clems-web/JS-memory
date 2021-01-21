@@ -95,8 +95,8 @@ function checkForSame() {
     let firstCard = cardSelectedId[0];
     let secondCard = cardSelectedId[1];
 
-    /* I'm checking if their .name are identical */
-    if (cardSelected[0] === cardSelected[1]) {
+    /* I'm checking if their .name are identical AND if their data-id is DIFFERENT ! (We don't want to dbl click the same image to win) */
+    if ((cardSelected[0] === cardSelected[1]) && (cardSelectedId[0] !== cardSelectedId[1])) {
         cards[firstCard].setAttribute("src", "./checked.png");
         cards[secondCard].setAttribute("src", "./checked.png");
 

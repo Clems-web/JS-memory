@@ -47,3 +47,56 @@ button {
     border-radius: 10px;
     width: 12%;
 }
+
+@media screen and (max-width: 1200px) {
+    #container {
+        height: 60rem;
+    }
+    img {
+        width: 21%;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #container {
+        height: 53rem;
+    }
+    img {
+        width: 21%;
+        height: 12rem;
+    }
+    button {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #container {
+        height: 53rem;
+        width: 90%;
+        margin-left: 5%;
+    }
+    button {
+        width: 20%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    button {
+        width: 24%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    img {
+        width: 25%;
+        height: 11rem;
+    }
+    button {
+        width: 36%;
+    }
+
+}
