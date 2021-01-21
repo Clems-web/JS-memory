@@ -31,6 +31,9 @@ img {
     border-radius: 40px;
 }
 
+img:hover {
+    transform: scale(1.2);
+}
 #count {
     font-size: 4rem;
     text-align: center;
