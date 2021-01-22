@@ -32,7 +32,7 @@ img {
 }
 
 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 #count {
     font-size: 4rem;
